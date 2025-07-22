@@ -14,14 +14,19 @@ body{
 }
 
 button{
-    color: white;
-    background-color: darkblue;
+    color: #fff;
+    background-color: transparent;
     border: none;
-    padding: 10px;
+    border: 3px solid #650488;
+    padding: 10px 30px;
     border-radius: 999px;
+    transition: 200ms all linear;
+    font-size: 20px;
 }
 
 button:hover{
     cursor:pointer;
-    background-color: green;
+    border: 3px solid #650488;
+    background-color: #650488;
+    box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
 }
