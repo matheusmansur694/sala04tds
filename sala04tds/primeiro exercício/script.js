@@ -38,7 +38,9 @@ function media(){
     media.innerHTML = (numero1 + numero2 + numero3 + numero4 + numero5 / 5)
     if(resp >= 7){
         media.style.color = 'green'
+        media.style.backgroundColor = 'lightpink'
     }else{
         media.style.color = 'red'
+        media.style.backgroundColor = 'lightpink'
     }
 }
