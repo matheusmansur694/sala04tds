@@ -1,23 +1,44 @@
-function divisao(){
-    var numero1 = parseFloat(document.getElementById("n1").value)
-    var numero2 = parseFloat(document.getElementById("n2").value)
-    document.getElementById('respMulti').innerHTML = numero1 / numero2
+function soma(){
+    var numero1 = document.getElementById("n1").valueAsNumber
+    var numero2 = document.getElementById("n2").valueAsNumber
+    document.getElementById('resposta').textContent = numero1 + numero2
 }
 
-function multiplicacao(){
-    var numero1 = parseFloat(document.getElementById("n3").value)
-    var numero2 = parseFloat(document.getElementById("n4").value)
+function sub(){
+    var numero1 = document.getElementById("n7").valueAsNumber
+    var numero2 = document.getElementById("n8").valueAsNumber
+    document.getElementById('respSub').textContent = numero1 - numero2
+}
+
+function multi(){
+    var numero1 = parseFloat(document.getElementById("n5").value)
+    var numero2 = parseFloat(document.getElementById("n6").value)
     document.getElementById('respMulti').innerHTML = numero1 * numero2
 }
 
-function soma(){
-    var numero1 = parseFloat(document.getElementById("n5").value)
-    var numero2 = parseFloat(document.getElementById("n6").value)
-    document.getElementById('respMulti').innerHTML = numero1 + numero2
+function div(){
+    var numero1 = parseFloat(document.getElementById("n3").value)
+    var numero2 = parseFloat(document.getElementById("n4").value)
+    var resposta = document.getElementById('respDiv')
+    if(numero2 !== 0){
+        resposta.innerHTML = numero1 / numero2
+    }else{
+        resposta.textContent = "Não se divide por 0"
+    }
+ 
 }
 
-function subtracao(){
-    var numero1 = parseFloat(document.getElementById("n7").value)
-    var numero2 = parseFloat(document.getElementById("n8").value)
-    document.getElementById('respMulti').innerHTML = numero1 - numero2
+function media(){
+    var numero1 = parseFloat(document.getElementById("m1").value)
+    var numero2 = parseFloat(document.getElementById("m2").value)
+    var numero3 = parseFloat(document.getElementById("m3").value)
+    var numero4 = parseFloat(document.getElementById("m4").value)
+    var numero5 = parseFloat(document.getElementById("m5").value)
+    var media = document.getElementById('media')
+    media.innerHTML = (numero1 + numero2 + numero3 + numero4 + numero5 / 5)
+    if(resp >= 7){
+        media.style.color = 'green'
+    }else{
+        media.style.color = 'red'
+    }
 }
