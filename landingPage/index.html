@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valorant</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- <nav>
+        <a href="#s1"><i class="fa-solid fa-bug"></i>
+            <p>sessão 01</p>
+        </a>
+        <a href="#s2"><i class="fa-solid fa-fish"></i>
+            <p>sessão 02</p>
+        </a>
+        <a href="#s3"><i class="fa-solid fa-sun"></i>
+            <p>sessão 03</p>
+        </a>
+        <a href="#s4"><i class="fa-solid fa-hand-holding-heart"></i>
+            <p>sessão 04</p>
+        </a>
+    </nav> -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link" href="#s1"><i class="fa-solid fa-bug"></i>
+                        <p>sessão 01</p>
+                    </a>
+                    <a class="nav-link"  href="#s2"><i class="fa-solid fa-fish"></i>
+                        <p>sessão 02</p>
+                    </a>
+                    <a class="nav-link"  href="#s3"><i class="fa-solid fa-sun"></i>
+                        <p>sessão 03</p>
+                    </a>
+                    <a class="nav-link"  href="#s4"><i class="fa-solid fa-hand-holding-heart"></i>
+                        <p>sessão 04</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <section id="s1">
+            <div class="wrap-img">
+                <img class="img-s1" src="./images/cypher.jpg" alt="Imagem exemplo">
+            </div>
+            <div class="wrap-words">
+                <h2>CYPHER</h2>
+                <p>Cypher é um agente sentinela marroquino no VALORANT, conhecido por suas habilidades de vigilância e
+                    controle de informações. Ele usa dispositivos espiões para rastrear e monitorar os movimentos dos
+                    inimigos, fornecendo informações cruciais para sua equipe. Seu nome verdadeiro é Amir. </p>
+            </div>
+        </section>
+
+        <section id="s2">
+            <h2>Tecnologias trabalhadas</h2>
+            <div class="wrap-cards">
+                <div class="cardnosso">
+                    <img width="70px" height="70px" src="./images/htmlLogo.webp" alt="HTML">
+                    <h3>HTML</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis tempora suscipit ad possimus
+                        maxime soluta aperiam aspernatur officiis, ipsum, placeat nihil est aliquid ratione quasi vel
+                        officia impedit animi neque.</p>
+                </div>
+                <div class="cardnosso">
+                    <img width="70px" height="70px" src="./images/cssLogo.webp" alt="CSS">
+                    <h3>CSS</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, incidunt debitis veniam eos
+                        sequi eius, eligendi quidem quos quaerat ex iusto necessitatibus commodi rem, sit mollitia
+                        fugiat labore alias voluptatum!</p>
+                </div>
+                <div class="cardnosso">
+                    <img width="70px" height="70px" src="./images/jsLogo.gif" alt="JAVASCRIPT">
+                    <h3>JAVASCRIPT</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto beatae voluptas praesentium
+                        voluptatem porro dicta quas libero mollitia recusandae, voluptate soluta quisquam officiis
+                        placeat fugiat .</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="s3">
+            <div class="wrap-video">
+                <iframe width="100%" height="100%" class="vd"
+                    src="https://www.youtube.com/embed/hhlgphVf-1g?si=gqKP8XOpL6eMCB1H" title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </section>
+
+        <section id="s4">
+            <h2>Contato</h2>
+            <div class="formulario">
+                <label for="nome">Nome</label>
+                <input type="text" id="nome" placeholder="Insira seu nome">
+                <label for="assunto">Assunto</label>
+                <input type="text" id="assunto" placeholder="Insira o assunto">
+                <button onclick="enviar()">Enviar</button>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <a target="_blank" href="https://instagram.com"><img width="30px" height="30px" src="./images/instagram.png"
+                alt="Instagram"></a>
+        <a target="_blank" href="https://instagram.com"><img width="30px" height="30px" src="./images/facebook.png"
+                alt="Facebook"></a>
+        <a target="_blank" href="https://tiktok.com"><img width="30px" height="30px" src="./images/tik-tok.png"
+                alt="Tiktok"></a>
+        <a target="_blank" href="https://pinterest.com"><img width="30px" height="30px"
+                src="./images/Pinterest-logo.png" alt="Pinterest"></a>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
